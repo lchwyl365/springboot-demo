@@ -12,6 +12,7 @@ public class UserController {
     @RequestMapping("/list")
     public String list(Model model){
         model.addAttribute("username","liuchao");
+        System.out.println("hello world");
         return "/user/list";
     }
 
